@@ -15,11 +15,11 @@ VALUES
 
 INSERT INTO properties (title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES 
-('Lavender Beds', 'A cozy cottage near Gridania', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 235, 1, 2, 3, 'Black Shroud', 'Shroud Lane', 'Gridania', 'Eorzea', 'L2D 7H9', true),
-('The Goblet', 'A sparkling jewel in an oasis', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 320, 2, 2, 3, 'Thanalan', 'Nanamo Crescent', 'Uldah', 'Eorzea', 'P3M 8N0', true),
-('Mist', 'Seaside retreat on the sunny coast', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 399, 0, 1, 2, 'La Noscea', 'Costa Drive', 'Costa del Sol', 'Eorzea', 'M9S 3H3', true),
-('Shirogane', 'A zen garden in the mountains', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 185, 1, 1, 1, 'Hingashi', 'Kuromichi', 'Kugane', 'Hingashi', 'LQL K0Y', true),
-('The Firmament', 'A socialist paradise', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 85, 2, 2, 4, 'Coerthas', 'Ysayle Boulevard', 'Ishgard', 'Eorzra', 'LQL K0Y', false);
+('Lavender Beds', 'A cozy cottage near Gridania', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 23500, 1, 2, 3, 'Black Shroud', 'Shroud Lane', 'Gridania', 'Eorzea', 'L2D 7H9', true),
+('The Goblet', 'A sparkling jewel in an oasis', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 32000, 2, 2, 3, 'Thanalan', 'Nanamo Crescent', 'Uldah', 'Eorzea', 'P3M 8N0', true),
+('Mist', 'Seaside retreat on the sunny coast', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 39900, 0, 1, 2, 'La Noscea', 'Costa Drive', 'Costa del Sol', 'Eorzea', 'M9S 3H3', true),
+('Shirogane', 'A zen garden in the mountains', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 18500, 1, 1, 1, 'Hingashi', 'Kuromichi', 'Kugane', 'Hingashi', 'LQL K0Y', true),
+('The Firmament', 'A socialist paradise', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 8500, 2, 2, 4, 'Coerthas', 'Ysayle Boulevard', 'Ishgard', 'Eorzra', 'LQL K0Y', true);
 
 INSERT INTO reservations (start_date, end_date, property_id, guest_id)
 VALUES 
